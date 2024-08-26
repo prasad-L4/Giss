@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 /* navbar */
 .navbar-text{
@@ -21,6 +22,156 @@
     color: black;
   }
 
+
+/* hero section */
+  .hero-section{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to top, rgb(146, 200, 219), rgb(240, 243, 245));
+    display: flex;
+    justify-content: center;
+    padding-top: 8.2rem;
+ 
+  }
+.hero-sec{
+    display: flex;
+      width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card {
+    width: 100%;
+    max-width: 100%;
+    border: none!important;
+    border-radius: 0;
+    background-color: transparent!important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .card-body {
+    padding: 2rem;
+  }
+
+.hero-text{
+
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    }
+    .hero-text  h2{
+        font-size: clamp(1rem, 3vw + 1rem, 5rem);
+        margin-bottom: 1.5rem;
+
+    }
+    .hero-text p{
+        color: rgb(138, 138, 138);
+    
+    }
+    .hero-btn{
+        display: flex;
+        gap: 20px;
+    }
+    .hero-btn1{
+        all: unset;
+        background-color:  rgb(24, 179, 24);
+        color: white;
+        height: 50px;
+        width: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        gap: 10px;
+    }
+    .hero-btn2{
+        all: unset;
+        background-color: white;
+        border-radius: 20px;
+        height: 50px;
+        width: 210px;
+        border-radius: 50px;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        
+       
+    }
+.hero-img{
+    height: 500px!important;
+    width: auto;
+    margin-bottom: -1rem!important;
+    
+
+}
+.about-container{
+    background-color: rgb(26, 68, 98);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.abt-sec{
+    width: 90%;
+
+
+}
+.about-container h2{
+    color: white;
+    text-align: center;
+    font-size: clamp(1rem, 3vw + 1rem, 5rem);
+    margin-top: 3rem;
+}
+.about-container p{
+    color: rgb(207, 203, 203);
+    text-align: center;
+    margin-top: 3rem;
+}
+.abt-rating{
+    display: flex;
+    justify-content: space-around;
+}
+.abt-rating div p{
+    color: white;
+    margin-top: -.5rem;
+}
+.about-container button{
+    width: 150px;
+    border-radius: 50px;
+    color: black;
+    display: flex;
+    gap: 5px;
+ justify-content: center;
+ align-items: center;
+ height: 50px;
+ margin-top: 1rem;
+}
+
+
+@media (min-width: 768px) {
+    .card {
+      flex-direction: row-reverse;
+    }
+    .col-md-4 {
+      flex: 1;
+    }
+    .card-body {
+      flex: 2;
+    }
+    .hero-section{
+       
+    }
+  }
 @media (min-width: 990px) {
     /* navbar */
     #navbarText {
@@ -51,4 +202,38 @@
       .search-icon{
         display:  block;
       }
+  }
+
+  @media (max-width: 768px) {
+    .hero-text{
+        margin-top: -4rem;
+    }
+  
+    .hero-btn1{
+        width: 130px;
+        height: 40px;
+        font-size: 12px;
+    }
+    .hero-btn2{
+        width: 130px;
+        height: 40px;
+        font-size: 10px;
+    
+    }
+    .abt-rating{
+        display: flex;
+        justify-content: space-around;
+        gap: 5px;
+        margin-top: -1rem;
+    }
+    .abt-rating div h2{
+        font-size: clamp(1rem, 2vw + 1rem, 5rem);
+    }
+    .abt-rating div p{
+        font-size: clamp(7px, 1vw  , 1rem);  
+    }
+    .about-container button{
+        width: 130px;
+        height: 40px;
+    }
   }
