@@ -279,9 +279,75 @@ color: rgb(116, 113, 113);
 .circle-main h4 ,.circle-main1 h4{
     font-size: 13px;}
 
+   
     /* Departmenet  section*/
+.dep-sec{
+    text-align: center;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-    
+    .dep-main{
+    display: flex;
+width: 100%;
+justify-content: center;
+margin-top: 3rem;
+
+
+}
+.dep-cards {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+
+
+}
+    .department-cards{
+        display: flex;
+
+    }
+    .department-card{
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Custom shadow effect */
+        transition: transform 0.2s, box-shadow 0.2s;
+        height: 400px;
+        width: 300px;
+        border-radius: 30px;
+        padding-bottom: 2rem;
+
+    }
+    .department-card:hover{
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+    .department-card img{
+        height: 340px;
+        width: 300px;
+        object-fit: cover;
+        border-radius: 30px 30px 0 0;
+    }
+    .department-card h3{
+    font-size: 17px;
+    margin-top: 1rem;
+    }
+    .dep-btn{
+        all: unset;
+        background-color: rgb(24, 179, 24);
+        width: 140px;
+        height: 50px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        border-radius: 50px;
+        margin-top: 3rem;
+    }
 @media (min-width: 768px) {
     .card {
       flex-direction: row-reverse;
@@ -407,4 +473,5 @@ color: rgb(116, 113, 113);
   .choos-section{
     padding: 5px;
   }
+  
   }
