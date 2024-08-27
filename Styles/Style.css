@@ -315,7 +315,7 @@ margin-top: 3rem;
     }
     .department-card{
         text-align: center;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Custom shadow effect */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
         transition: transform 0.2s, box-shadow 0.2s;
         height: 400px;
         width: 300px;
@@ -352,7 +352,7 @@ margin-top: 3rem;
     }
     .dep-banner{
         background: url('/Assets/banner.jpg') no-repeat center center;
-        background-size: cover; /* Ensures the image covers the entire area */
+        background-size: cover;
         width: 100%;
         height: 450px;
         margin-top: 4rem;
@@ -360,7 +360,7 @@ margin-top: 3rem;
         align-items: center;
         justify-content: center;
         color: white;
- /* Centers the text horizontally */
+
         padding: 20px;
     }
     .dep-bnr{
@@ -445,7 +445,7 @@ object-position: top;
 
 }
 .slide {
-    flex: 0 0 100%; /* Default for mobile screens: 100% width of container */
+    flex: 0 0 100%; 
     box-sizing: border-box;
     text-align: center;
 }
@@ -595,7 +595,7 @@ margin-top: -6rem;
         display: inline-block;
         width: 350px;
         height: 60px; 
-        margin-top: 1rem;/* Ensures the container wraps around the input and button */
+        margin-top: 1rem;
     }
     
     input[type="email"] {
@@ -603,7 +603,7 @@ margin-top: -6rem;
         padding: 10px;
        border-radius: 50px;
         border: none;
-         /* Includes padding in the width calculation */
+    
     }
     
     .subscribe-btn {
@@ -615,7 +615,7 @@ margin-top: -6rem;
         border-radius: 50px;
         border: none;
         background-color: rgb(24, 179, 24);
-         /* Adjust the button color as needed */
+
         color: white;
         cursor: pointer;
         padding: 0 15px;
@@ -681,9 +681,6 @@ margin-top: -6rem;
     font-size: 18px;
 }
 
-
-  
-
 @media (min-width: 768px) {
     .card {
       flex-direction: row-reverse;
@@ -734,10 +731,10 @@ margin-top: -6rem;
         display:  block;
       }
       .slider div {
-        flex: 0 0 25%; /* 25% of the container width to display 4 images */
+        flex: 0 0 25%; 
     }
     .slide {
-        min-width: 25%; /* 100% / 4 slides */
+        min-width: 25%;
     }
   }
 
