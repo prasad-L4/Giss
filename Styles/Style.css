@@ -29,7 +29,7 @@
     color: black;
   }
   .navbar-collapse {
-    background-color: white; /* Set background color to white */
+    background-color: white; 
    width: 100%!important;
    padding: 10px;
 }
@@ -38,14 +38,14 @@
     background-color: white; 
     width: 100%!important;
    
-/* Keep background white during collapse animation */
+
 }
 
 .navbar-collapse.show {
     background-color: white;
     width: 100%!important;
 
-/* Ensure background stays white when the navbar is expanded */
+
 }
 
 /* hero section */
@@ -211,6 +211,77 @@
     object-fit: cover;
     object-position: top;
 }
+/* choos section */
+.choos-section{
+    margin-top: 7rem;
+}
+.choos-section p{
+    text-align: center;
+color: rgb(116, 113, 113);
+}
+.choos-section h2{
+    text-align: center;
+    font-size: clamp(1rem, 3vw + 1rem, 5rem);
+
+}
+.choos-section-circle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.choos-sec-circle{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.circle-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.circle-main1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.circle{
+    background-color: rgb(215, 231, 238);
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.circle img{
+    width: 80px
+}
+.circle-main h5,.circle-main1 h5{
+    background-color:  rgb(24, 179, 24);
+    font-size: 13px;
+    border-radius: 50px;
+    height: 25px;
+    width: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: -1rem;
+
+}
+.circle-main h4 ,.circle-main1 h4{
+    font-size: 13px;}
+
+    /* Departmenet  section*/
+
+    
 @media (min-width: 768px) {
     .card {
       flex-direction: row-reverse;
@@ -323,4 +394,17 @@
     .abt-crd3 img{
         width: 100%;
     }
+    .choos-sec-circle{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    .circle-main1{
+        margin-top: 0px;
+
+  
+  }
+  .choos-section{
+    padding: 5px;
+  }
   }
