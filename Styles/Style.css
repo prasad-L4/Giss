@@ -348,6 +348,80 @@ margin-top: 3rem;
         border-radius: 50px;
         margin-top: 3rem;
     }
+    .dep-banner{
+        background: url('/Assets/banner.jpg') no-repeat center center;
+        background-size: cover; /* Ensures the image covers the entire area */
+        width: 100%;
+        height: 450px;
+        margin-top: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+ /* Centers the text horizontally */
+        padding: 20px;
+    }
+    .dep-bnr{
+        width: 80%;
+    }
+    .dep-bnr  h2{
+        font-size: clamp(1rem, 2vw + 1rem, 5rem);
+    }
+    .dep-bnr button{
+        width: 140px!important;
+        height: 50px!important;
+        all: unset;
+        background-color: orange;
+        color: white;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        margin-top: 2rem;
+    }
+    /* News and event section */
+.news-event-sect{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+    .news-cards{
+width: 90%;
+display: flex;
+gap: 2rem;
+justify-content: center;
+flex-wrap: wrap;
+margin-top: 3rem;
+
+
+    }
+    .news-cards div{
+        width: 400px;
+        height: 280px;
+    
+    }
+    .news-cards div img{
+        width: 400px!important;
+        height: 200px;
+object-fit: cover;
+object-position: top;
+    }
+    .news-cards div h6{
+        color: rgb(15, 15, 161);
+        font-size: 15px;
+        margin-top: 1rem;
+        font-weight: 400;
+    }
+    .news-cards div h3{
+        color: rgb(23, 23, 128);
+        font-size:22px ;
+        font-weight: 400;
+
+    }
 @media (min-width: 768px) {
     .card {
       flex-direction: row-reverse;
@@ -472,6 +546,21 @@ margin-top: 3rem;
   }
   .choos-section{
     padding: 5px;
+    margin-top: 1rem;
+  }
+  
+  .dep-banner{
+    height: 300px!important;
+  }
+.news-cards div,.news-cards div img{
+    width: 100%!important;
+  }
+  .news-cards div h6{
+    font-size: 13px;
+
+  }
+  .news-cards div h3{
+font-size: 16px;
   }
   
   }
